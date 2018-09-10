@@ -18,9 +18,11 @@ Now edit for directory level
 add these lines at end
 
 
-`<Directory /var/www/html>
+```
+<Directory /var/www/html>
     AllowOverride All
- </Directory>`
+ </Directory>
+```
 
 and restart apache again.
 
