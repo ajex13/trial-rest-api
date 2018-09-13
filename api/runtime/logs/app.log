@@ -1,0 +1,1677 @@
+2018-09-10 15:47:02 [::1][-][jg11jibjt30187b41rljaj4u37][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "".' in /var/www/html/trial-rest-api/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/www/html/trial-rest-api/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('', Array)
+#1 /var/www/html/trial-rest-api/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/html/trial-rest-api/api/index.php(14): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/html/trial-rest-api/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/html/trial-rest-api/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/html/trial-rest-api/api/index.php(14): yii\base\Application->run()
+#2 {main}
+2018-09-10 15:47:02 [::1][-][jg11jibjt30187b41rljaj4u37][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => 'f7369c2c4dbe3a99c74098cf047bd076eea39a39f307f50a44574122222f5867a:2:{i:0;s:9:\"_identity\";i:1;s:35:\"[\"supreeth@aotpl.com\",null,2592000]\";}'
+    'username-localhost-8889' => '\"2|1:0|10:1534876186|23:username-localhost-8889|44:YWZiZjcyM2Q0MzY2NDdlM2E4MjAzMWE3ZTY1ZjA0NTY=|01813b015c82e099d2915f48b04a43dafda4b7c2a25892480422eeb78ba93fda\"'
+    '_xsrf' => '2|a2533cf9|503b65782542982445cf59ebd3bfc1e2|1535785350'
+    'username-localhost-8888' => '\"2|1:0|10:1536332357|23:username-localhost-8888|44:MmQxMzg4YjI5ZjBiNGM1NmE2NzM4NzdmZTA2ZWFjYWM=|e61c9fb9cb6852cfe9864eff31893237fd5eda33b2a05a48307d2fc9b8cb4a10\"'
+    'PHPSESSID' => 'jg11jibjt30187b41rljaj4u37'
+    '_csrf' => '6fa8df85b1511013b52b455f139a068317e6396bf84d92b7bb5923c7d42d457fa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"H-_CgmoCIuZGKHQydSsT8M37mjL0HFpO\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en-US;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => '_identity=f7369c2c4dbe3a99c74098cf047bd076eea39a39f307f50a44574122222f5867a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A35%3A%22%5B%22supreeth%40aotpl.com%22%2Cnull%2C2592000%5D%22%3B%7D; username-localhost-8889=\"2|1:0|10:1534876186|23:username-localhost-8889|44:YWZiZjcyM2Q0MzY2NDdlM2E4MjAzMWE3ZTY1ZjA0NTY=|01813b015c82e099d2915f48b04a43dafda4b7c2a25892480422eeb78ba93fda\"; _xsrf=2|a2533cf9|503b65782542982445cf59ebd3bfc1e2|1535785350; username-localhost-8888=\"2|1:0|10:1536332357|23:username-localhost-8888|44:MmQxMzg4YjI5ZjBiNGM1NmE2NzM4NzdmZTA2ZWFjYWM=|e61c9fb9cb6852cfe9864eff31893237fd5eda33b2a05a48307d2fc9b8cb4a10\"; PHPSESSID=jg11jibjt30187b41rljaj4u37; _csrf=6fa8df85b1511013b52b455f139a068317e6396bf84d92b7bb5923c7d42d457fa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22H-_CgmoCIuZGKHQydSsT8M37mjL0HFpO%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.29 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.29 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/trial-rest-api/api/index.php'
+    'REMOTE_PORT' => '53922'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/trial-rest-api/api/'
+    'SCRIPT_NAME' => '/trial-rest-api/api/index.php'
+    'PHP_SELF' => '/trial-rest-api/api/index.php'
+    'REQUEST_TIME_FLOAT' => 1536594422.616
+    'REQUEST_TIME' => 1536594422
+]
+2018-09-10 15:52:52 [::1][-][jg11jibjt30187b41rljaj4u37][error][yii\base\UnknownClassException] exception 'yii\base\UnknownClassException' with message 'Unable to find 'api\modules\v1\controllers\DefaultController' in file: /var/www/html/trial-rest-api/api/modules/v1/controllers/DefaultController.php. Namespace missing?' in /var/www/html/trial-rest-api/vendor/yiisoft/yii2/BaseYii.php:296
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('api\\modules\\v1\\...')
+#1 [internal function]: spl_autoload_call('api\\modules\\v1\\...')
+#2 /var/www/html/trial-rest-api/vendor/yiisoft/yii2/base/Module.php(637): class_exists('api\\modules\\v1\\...')
+#3 /var/www/html/trial-rest-api/vendor/yiisoft/yii2/base/Module.php(596): yii\base\Module->createControllerByID('default')
+#4 /var/www/html/trial-rest-api/vendor/yiisoft/yii2/base/Module.php(588): yii\base\Module->createController('')
+#5 /var/www/html/trial-rest-api/vendor/yiisoft/yii2/base/Module.php(522): yii\base\Module->createController('v1')
+#6 /var/www/html/trial-rest-api/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('v1', Array)
+#7 /var/www/html/trial-rest-api/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /var/www/html/trial-rest-api/api/index.php(14): yii\base\Application->run()
+#9 {main}
+2018-09-10 15:52:52 [::1][-][jg11jibjt30187b41rljaj4u37][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => 'f7369c2c4dbe3a99c74098cf047bd076eea39a39f307f50a44574122222f5867a:2:{i:0;s:9:\"_identity\";i:1;s:35:\"[\"supreeth@aotpl.com\",null,2592000]\";}'
+    'username-localhost-8889' => '\"2|1:0|10:1534876186|23:username-localhost-8889|44:YWZiZjcyM2Q0MzY2NDdlM2E4MjAzMWE3ZTY1ZjA0NTY=|01813b015c82e099d2915f48b04a43dafda4b7c2a25892480422eeb78ba93fda\"'
+    '_xsrf' => '2|a2533cf9|503b65782542982445cf59ebd3bfc1e2|1535785350'
+    'username-localhost-8888' => '\"2|1:0|10:1536332357|23:username-localhost-8888|44:MmQxMzg4YjI5ZjBiNGM1NmE2NzM4NzdmZTA2ZWFjYWM=|e61c9fb9cb6852cfe9864eff31893237fd5eda33b2a05a48307d2fc9b8cb4a10\"'
+    'PHPSESSID' => 'jg11jibjt30187b41rljaj4u37'
+    '_csrf' => '6fa8df85b1511013b52b455f139a068317e6396bf84d92b7bb5923c7d42d457fa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"H-_CgmoCIuZGKHQydSsT8M37mjL0HFpO\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en-US;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => '_identity=f7369c2c4dbe3a99c74098cf047bd076eea39a39f307f50a44574122222f5867a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A35%3A%22%5B%22supreeth%40aotpl.com%22%2Cnull%2C2592000%5D%22%3B%7D; username-localhost-8889=\"2|1:0|10:1534876186|23:username-localhost-8889|44:YWZiZjcyM2Q0MzY2NDdlM2E4MjAzMWE3ZTY1ZjA0NTY=|01813b015c82e099d2915f48b04a43dafda4b7c2a25892480422eeb78ba93fda\"; _xsrf=2|a2533cf9|503b65782542982445cf59ebd3bfc1e2|1535785350; username-localhost-8888=\"2|1:0|10:1536332357|23:username-localhost-8888|44:MmQxMzg4YjI5ZjBiNGM1NmE2NzM4NzdmZTA2ZWFjYWM=|e61c9fb9cb6852cfe9864eff31893237fd5eda33b2a05a48307d2fc9b8cb4a10\"; PHPSESSID=jg11jibjt30187b41rljaj4u37; _csrf=6fa8df85b1511013b52b455f139a068317e6396bf84d92b7bb5923c7d42d457fa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22H-_CgmoCIuZGKHQydSsT8M37mjL0HFpO%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.29 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.29 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/trial-rest-api/api/index.php'
+    'REMOTE_PORT' => '56774'
+    'REDIRECT_URL' => '/trial-rest-api/api/v1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/trial-rest-api/api/v1'
+    'SCRIPT_NAME' => '/trial-rest-api/api/index.php'
+    'PHP_SELF' => '/trial-rest-api/api/index.php'
+    'REQUEST_TIME_FLOAT' => 1536594772.524
+    'REQUEST_TIME' => 1536594772
+]
+2018-09-10 15:53:26 [::1][-][jg11jibjt30187b41rljaj4u37][error][yii\base\ViewNotFoundException] exception 'yii\base\ViewNotFoundException' with message 'The view file does not exist: /var/www/html/trial-rest-api/api/views/layouts/main.php' in /var/www/html/trial-rest-api/vendor/yiisoft/yii2/base/View.php:233
+Stack trace:
+#0 /var/www/html/trial-rest-api/vendor/yiisoft/yii2/base/Controller.php(399): yii\base\View->renderFile('/var/www/html/t...', Array, Object(api\modules\v1\controllers\DefaultController))
+#1 /var/www/html/trial-rest-api/vendor/yiisoft/yii2/base/Controller.php(385): yii\base\Controller->renderContent('<div class="v1-...')
+#2 /var/www/html/trial-rest-api/api/modules/v1/controllers/DefaultController.php(18): yii\base\Controller->render('index')
+#3 [internal function]: api\modules\v1\controllers\DefaultController->actionIndex()
+#4 /var/www/html/trial-rest-api/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#5 /var/www/html/trial-rest-api/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#6 /var/www/html/trial-rest-api/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('', Array)
+#7 /var/www/html/trial-rest-api/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('v1', Array)
+#8 /var/www/html/trial-rest-api/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 /var/www/html/trial-rest-api/api/index.php(14): yii\base\Application->run()
+#10 {main}
+2018-09-10 15:53:26 [::1][-][jg11jibjt30187b41rljaj4u37][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => 'f7369c2c4dbe3a99c74098cf047bd076eea39a39f307f50a44574122222f5867a:2:{i:0;s:9:\"_identity\";i:1;s:35:\"[\"supreeth@aotpl.com\",null,2592000]\";}'
+    'username-localhost-8889' => '\"2|1:0|10:1534876186|23:username-localhost-8889|44:YWZiZjcyM2Q0MzY2NDdlM2E4MjAzMWE3ZTY1ZjA0NTY=|01813b015c82e099d2915f48b04a43dafda4b7c2a25892480422eeb78ba93fda\"'
+    '_xsrf' => '2|a2533cf9|503b65782542982445cf59ebd3bfc1e2|1535785350'
+    'username-localhost-8888' => '\"2|1:0|10:1536332357|23:username-localhost-8888|44:MmQxMzg4YjI5ZjBiNGM1NmE2NzM4NzdmZTA2ZWFjYWM=|e61c9fb9cb6852cfe9864eff31893237fd5eda33b2a05a48307d2fc9b8cb4a10\"'
+    'PHPSESSID' => 'jg11jibjt30187b41rljaj4u37'
+    '_csrf' => '6fa8df85b1511013b52b455f139a068317e6396bf84d92b7bb5923c7d42d457fa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"H-_CgmoCIuZGKHQydSsT8M37mjL0HFpO\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en-US;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => '_identity=f7369c2c4dbe3a99c74098cf047bd076eea39a39f307f50a44574122222f5867a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A35%3A%22%5B%22supreeth%40aotpl.com%22%2Cnull%2C2592000%5D%22%3B%7D; username-localhost-8889=\"2|1:0|10:1534876186|23:username-localhost-8889|44:YWZiZjcyM2Q0MzY2NDdlM2E4MjAzMWE3ZTY1ZjA0NTY=|01813b015c82e099d2915f48b04a43dafda4b7c2a25892480422eeb78ba93fda\"; _xsrf=2|a2533cf9|503b65782542982445cf59ebd3bfc1e2|1535785350; username-localhost-8888=\"2|1:0|10:1536332357|23:username-localhost-8888|44:MmQxMzg4YjI5ZjBiNGM1NmE2NzM4NzdmZTA2ZWFjYWM=|e61c9fb9cb6852cfe9864eff31893237fd5eda33b2a05a48307d2fc9b8cb4a10\"; PHPSESSID=jg11jibjt30187b41rljaj4u37; _csrf=6fa8df85b1511013b52b455f139a068317e6396bf84d92b7bb5923c7d42d457fa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22H-_CgmoCIuZGKHQydSsT8M37mjL0HFpO%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.29 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.29 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/trial-rest-api/api/index.php'
+    'REMOTE_PORT' => '56810'
+    'REDIRECT_URL' => '/trial-rest-api/api/v1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/trial-rest-api/api/v1'
+    'SCRIPT_NAME' => '/trial-rest-api/api/index.php'
+    'PHP_SELF' => '/trial-rest-api/api/index.php'
+    'REQUEST_TIME_FLOAT' => 1536594806.287
+    'REQUEST_TIME' => 1536594806
+]
+2018-09-10 15:53:27 [::1][-][jg11jibjt30187b41rljaj4u37][error][yii\base\ViewNotFoundException] exception 'yii\base\ViewNotFoundException' with message 'The view file does not exist: /var/www/html/trial-rest-api/api/views/layouts/main.php' in /var/www/html/trial-rest-api/vendor/yiisoft/yii2/base/View.php:233
+Stack trace:
+#0 /var/www/html/trial-rest-api/vendor/yiisoft/yii2/base/Controller.php(399): yii\base\View->renderFile('/var/www/html/t...', Array, Object(api\modules\v1\controllers\DefaultController))
+#1 /var/www/html/trial-rest-api/vendor/yiisoft/yii2/base/Controller.php(385): yii\base\Controller->renderContent('<div class="v1-...')
+#2 /var/www/html/trial-rest-api/api/modules/v1/controllers/DefaultController.php(18): yii\base\Controller->render('index')
+#3 [internal function]: api\modules\v1\controllers\DefaultController->actionIndex()
+#4 /var/www/html/trial-rest-api/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#5 /var/www/html/trial-rest-api/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#6 /var/www/html/trial-rest-api/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('', Array)
+#7 /var/www/html/trial-rest-api/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('v1', Array)
+#8 /var/www/html/trial-rest-api/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 /var/www/html/trial-rest-api/api/index.php(14): yii\base\Application->run()
+#10 {main}
+2018-09-10 15:53:27 [::1][-][jg11jibjt30187b41rljaj4u37][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => 'f7369c2c4dbe3a99c74098cf047bd076eea39a39f307f50a44574122222f5867a:2:{i:0;s:9:\"_identity\";i:1;s:35:\"[\"supreeth@aotpl.com\",null,2592000]\";}'
+    'username-localhost-8889' => '\"2|1:0|10:1534876186|23:username-localhost-8889|44:YWZiZjcyM2Q0MzY2NDdlM2E4MjAzMWE3ZTY1ZjA0NTY=|01813b015c82e099d2915f48b04a43dafda4b7c2a25892480422eeb78ba93fda\"'
+    '_xsrf' => '2|a2533cf9|503b65782542982445cf59ebd3bfc1e2|1535785350'
+    'username-localhost-8888' => '\"2|1:0|10:1536332357|23:username-localhost-8888|44:MmQxMzg4YjI5ZjBiNGM1NmE2NzM4NzdmZTA2ZWFjYWM=|e61c9fb9cb6852cfe9864eff31893237fd5eda33b2a05a48307d2fc9b8cb4a10\"'
+    'PHPSESSID' => 'jg11jibjt30187b41rljaj4u37'
+    '_csrf' => '6fa8df85b1511013b52b455f139a068317e6396bf84d92b7bb5923c7d42d457fa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"H-_CgmoCIuZGKHQydSsT8M37mjL0HFpO\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en-US;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => '_identity=f7369c2c4dbe3a99c74098cf047bd076eea39a39f307f50a44574122222f5867a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A35%3A%22%5B%22supreeth%40aotpl.com%22%2Cnull%2C2592000%5D%22%3B%7D; username-localhost-8889=\"2|1:0|10:1534876186|23:username-localhost-8889|44:YWZiZjcyM2Q0MzY2NDdlM2E4MjAzMWE3ZTY1ZjA0NTY=|01813b015c82e099d2915f48b04a43dafda4b7c2a25892480422eeb78ba93fda\"; _xsrf=2|a2533cf9|503b65782542982445cf59ebd3bfc1e2|1535785350; username-localhost-8888=\"2|1:0|10:1536332357|23:username-localhost-8888|44:MmQxMzg4YjI5ZjBiNGM1NmE2NzM4NzdmZTA2ZWFjYWM=|e61c9fb9cb6852cfe9864eff31893237fd5eda33b2a05a48307d2fc9b8cb4a10\"; PHPSESSID=jg11jibjt30187b41rljaj4u37; _csrf=6fa8df85b1511013b52b455f139a068317e6396bf84d92b7bb5923c7d42d457fa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22H-_CgmoCIuZGKHQydSsT8M37mjL0HFpO%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.29 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.29 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/trial-rest-api/api/index.php'
+    'REMOTE_PORT' => '56814'
+    'REDIRECT_URL' => '/trial-rest-api/api/v1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/trial-rest-api/api/v1'
+    'SCRIPT_NAME' => '/trial-rest-api/api/index.php'
+    'PHP_SELF' => '/trial-rest-api/api/index.php'
+    'REQUEST_TIME_FLOAT' => 1536594807.643
+    'REQUEST_TIME' => 1536594807
+]
+2018-09-10 16:35:46 [::1][-][jg11jibjt30187b41rljaj4u37][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "v1/dashboard".' in /var/www/html/trial-rest-api/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/www/html/trial-rest-api/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('v1/dashboard', Array)
+#1 /var/www/html/trial-rest-api/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/html/trial-rest-api/api/index.php(14): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/html/trial-rest-api/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/html/trial-rest-api/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/html/trial-rest-api/api/index.php(14): yii\base\Application->run()
+#2 {main}
+2018-09-10 16:35:46 [::1][-][jg11jibjt30187b41rljaj4u37][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => 'f7369c2c4dbe3a99c74098cf047bd076eea39a39f307f50a44574122222f5867a:2:{i:0;s:9:\"_identity\";i:1;s:35:\"[\"supreeth@aotpl.com\",null,2592000]\";}'
+    'username-localhost-8889' => '\"2|1:0|10:1534876186|23:username-localhost-8889|44:YWZiZjcyM2Q0MzY2NDdlM2E4MjAzMWE3ZTY1ZjA0NTY=|01813b015c82e099d2915f48b04a43dafda4b7c2a25892480422eeb78ba93fda\"'
+    '_xsrf' => '2|a2533cf9|503b65782542982445cf59ebd3bfc1e2|1535785350'
+    'username-localhost-8888' => '\"2|1:0|10:1536332357|23:username-localhost-8888|44:MmQxMzg4YjI5ZjBiNGM1NmE2NzM4NzdmZTA2ZWFjYWM=|e61c9fb9cb6852cfe9864eff31893237fd5eda33b2a05a48307d2fc9b8cb4a10\"'
+    'PHPSESSID' => 'jg11jibjt30187b41rljaj4u37'
+    '_csrf' => '6fa8df85b1511013b52b455f139a068317e6396bf84d92b7bb5923c7d42d457fa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"H-_CgmoCIuZGKHQydSsT8M37mjL0HFpO\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en-US;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => '_identity=f7369c2c4dbe3a99c74098cf047bd076eea39a39f307f50a44574122222f5867a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A35%3A%22%5B%22supreeth%40aotpl.com%22%2Cnull%2C2592000%5D%22%3B%7D; username-localhost-8889=\"2|1:0|10:1534876186|23:username-localhost-8889|44:YWZiZjcyM2Q0MzY2NDdlM2E4MjAzMWE3ZTY1ZjA0NTY=|01813b015c82e099d2915f48b04a43dafda4b7c2a25892480422eeb78ba93fda\"; _xsrf=2|a2533cf9|503b65782542982445cf59ebd3bfc1e2|1535785350; username-localhost-8888=\"2|1:0|10:1536332357|23:username-localhost-8888|44:MmQxMzg4YjI5ZjBiNGM1NmE2NzM4NzdmZTA2ZWFjYWM=|e61c9fb9cb6852cfe9864eff31893237fd5eda33b2a05a48307d2fc9b8cb4a10\"; PHPSESSID=jg11jibjt30187b41rljaj4u37; _csrf=6fa8df85b1511013b52b455f139a068317e6396bf84d92b7bb5923c7d42d457fa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22H-_CgmoCIuZGKHQydSsT8M37mjL0HFpO%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.29 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.29 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/trial-rest-api/api/index.php'
+    'REMOTE_PORT' => '57194'
+    'REDIRECT_URL' => '/trial-rest-api/api/v1/dashboard'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/trial-rest-api/api/v1/dashboard'
+    'SCRIPT_NAME' => '/trial-rest-api/api/index.php'
+    'PHP_SELF' => '/trial-rest-api/api/index.php'
+    'REQUEST_TIME_FLOAT' => 1536597346.098
+    'REQUEST_TIME' => 1536597346
+]
+2018-09-10 16:37:26 [::1][-][jg11jibjt30187b41rljaj4u37][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "v1/dashboard".' in /var/www/html/trial-rest-api/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/www/html/trial-rest-api/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('v1/dashboard', Array)
+#1 /var/www/html/trial-rest-api/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/html/trial-rest-api/api/index.php(14): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/html/trial-rest-api/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/html/trial-rest-api/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/html/trial-rest-api/api/index.php(14): yii\base\Application->run()
+#2 {main}
+2018-09-10 16:37:26 [::1][-][jg11jibjt30187b41rljaj4u37][info][application] $_GET = [
+    'id' => '1'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => 'f7369c2c4dbe3a99c74098cf047bd076eea39a39f307f50a44574122222f5867a:2:{i:0;s:9:\"_identity\";i:1;s:35:\"[\"supreeth@aotpl.com\",null,2592000]\";}'
+    'username-localhost-8889' => '\"2|1:0|10:1534876186|23:username-localhost-8889|44:YWZiZjcyM2Q0MzY2NDdlM2E4MjAzMWE3ZTY1ZjA0NTY=|01813b015c82e099d2915f48b04a43dafda4b7c2a25892480422eeb78ba93fda\"'
+    '_xsrf' => '2|a2533cf9|503b65782542982445cf59ebd3bfc1e2|1535785350'
+    'username-localhost-8888' => '\"2|1:0|10:1536332357|23:username-localhost-8888|44:MmQxMzg4YjI5ZjBiNGM1NmE2NzM4NzdmZTA2ZWFjYWM=|e61c9fb9cb6852cfe9864eff31893237fd5eda33b2a05a48307d2fc9b8cb4a10\"'
+    'PHPSESSID' => 'jg11jibjt30187b41rljaj4u37'
+    '_csrf' => '6fa8df85b1511013b52b455f139a068317e6396bf84d92b7bb5923c7d42d457fa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"H-_CgmoCIuZGKHQydSsT8M37mjL0HFpO\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en-US;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => '_identity=f7369c2c4dbe3a99c74098cf047bd076eea39a39f307f50a44574122222f5867a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A35%3A%22%5B%22supreeth%40aotpl.com%22%2Cnull%2C2592000%5D%22%3B%7D; username-localhost-8889=\"2|1:0|10:1534876186|23:username-localhost-8889|44:YWZiZjcyM2Q0MzY2NDdlM2E4MjAzMWE3ZTY1ZjA0NTY=|01813b015c82e099d2915f48b04a43dafda4b7c2a25892480422eeb78ba93fda\"; _xsrf=2|a2533cf9|503b65782542982445cf59ebd3bfc1e2|1535785350; username-localhost-8888=\"2|1:0|10:1536332357|23:username-localhost-8888|44:MmQxMzg4YjI5ZjBiNGM1NmE2NzM4NzdmZTA2ZWFjYWM=|e61c9fb9cb6852cfe9864eff31893237fd5eda33b2a05a48307d2fc9b8cb4a10\"; PHPSESSID=jg11jibjt30187b41rljaj4u37; _csrf=6fa8df85b1511013b52b455f139a068317e6396bf84d92b7bb5923c7d42d457fa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22H-_CgmoCIuZGKHQydSsT8M37mjL0HFpO%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.29 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.29 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/trial-rest-api/api/index.php'
+    'REMOTE_PORT' => '57228'
+    'REDIRECT_URL' => '/trial-rest-api/api/v1/dashboard'
+    'REDIRECT_QUERY_STRING' => 'id=1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'id=1'
+    'REQUEST_URI' => '/trial-rest-api/api/v1/dashboard?id=1'
+    'SCRIPT_NAME' => '/trial-rest-api/api/index.php'
+    'PHP_SELF' => '/trial-rest-api/api/index.php'
+    'REQUEST_TIME_FLOAT' => 1536597446.679
+    'REQUEST_TIME' => 1536597446
+]
+2018-09-10 16:37:33 [::1][-][jg11jibjt30187b41rljaj4u37][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "v1/dashboard/1".' in /var/www/html/trial-rest-api/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/www/html/trial-rest-api/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('v1/dashboard/1', Array)
+#1 /var/www/html/trial-rest-api/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/html/trial-rest-api/api/index.php(14): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/html/trial-rest-api/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/html/trial-rest-api/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/html/trial-rest-api/api/index.php(14): yii\base\Application->run()
+#2 {main}
+2018-09-10 16:37:33 [::1][-][jg11jibjt30187b41rljaj4u37][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => 'f7369c2c4dbe3a99c74098cf047bd076eea39a39f307f50a44574122222f5867a:2:{i:0;s:9:\"_identity\";i:1;s:35:\"[\"supreeth@aotpl.com\",null,2592000]\";}'
+    'username-localhost-8889' => '\"2|1:0|10:1534876186|23:username-localhost-8889|44:YWZiZjcyM2Q0MzY2NDdlM2E4MjAzMWE3ZTY1ZjA0NTY=|01813b015c82e099d2915f48b04a43dafda4b7c2a25892480422eeb78ba93fda\"'
+    '_xsrf' => '2|a2533cf9|503b65782542982445cf59ebd3bfc1e2|1535785350'
+    'username-localhost-8888' => '\"2|1:0|10:1536332357|23:username-localhost-8888|44:MmQxMzg4YjI5ZjBiNGM1NmE2NzM4NzdmZTA2ZWFjYWM=|e61c9fb9cb6852cfe9864eff31893237fd5eda33b2a05a48307d2fc9b8cb4a10\"'
+    'PHPSESSID' => 'jg11jibjt30187b41rljaj4u37'
+    '_csrf' => '6fa8df85b1511013b52b455f139a068317e6396bf84d92b7bb5923c7d42d457fa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"H-_CgmoCIuZGKHQydSsT8M37mjL0HFpO\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en-US;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => '_identity=f7369c2c4dbe3a99c74098cf047bd076eea39a39f307f50a44574122222f5867a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A35%3A%22%5B%22supreeth%40aotpl.com%22%2Cnull%2C2592000%5D%22%3B%7D; username-localhost-8889=\"2|1:0|10:1534876186|23:username-localhost-8889|44:YWZiZjcyM2Q0MzY2NDdlM2E4MjAzMWE3ZTY1ZjA0NTY=|01813b015c82e099d2915f48b04a43dafda4b7c2a25892480422eeb78ba93fda\"; _xsrf=2|a2533cf9|503b65782542982445cf59ebd3bfc1e2|1535785350; username-localhost-8888=\"2|1:0|10:1536332357|23:username-localhost-8888|44:MmQxMzg4YjI5ZjBiNGM1NmE2NzM4NzdmZTA2ZWFjYWM=|e61c9fb9cb6852cfe9864eff31893237fd5eda33b2a05a48307d2fc9b8cb4a10\"; PHPSESSID=jg11jibjt30187b41rljaj4u37; _csrf=6fa8df85b1511013b52b455f139a068317e6396bf84d92b7bb5923c7d42d457fa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22H-_CgmoCIuZGKHQydSsT8M37mjL0HFpO%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.29 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.29 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/trial-rest-api/api/index.php'
+    'REMOTE_PORT' => '57232'
+    'REDIRECT_URL' => '/trial-rest-api/api/v1/dashboard/1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/trial-rest-api/api/v1/dashboard/1'
+    'SCRIPT_NAME' => '/trial-rest-api/api/index.php'
+    'PHP_SELF' => '/trial-rest-api/api/index.php'
+    'REQUEST_TIME_FLOAT' => 1536597452.999
+    'REQUEST_TIME' => 1536597452
+]
+2018-09-10 16:37:44 [::1][-][jg11jibjt30187b41rljaj4u37][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "v1/dashboard/1".' in /var/www/html/trial-rest-api/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/www/html/trial-rest-api/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('v1/dashboard/1', Array)
+#1 /var/www/html/trial-rest-api/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/html/trial-rest-api/api/index.php(14): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/html/trial-rest-api/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/html/trial-rest-api/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/html/trial-rest-api/api/index.php(14): yii\base\Application->run()
+#2 {main}
+2018-09-10 16:37:44 [::1][-][jg11jibjt30187b41rljaj4u37][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => 'f7369c2c4dbe3a99c74098cf047bd076eea39a39f307f50a44574122222f5867a:2:{i:0;s:9:\"_identity\";i:1;s:35:\"[\"supreeth@aotpl.com\",null,2592000]\";}'
+    'username-localhost-8889' => '\"2|1:0|10:1534876186|23:username-localhost-8889|44:YWZiZjcyM2Q0MzY2NDdlM2E4MjAzMWE3ZTY1ZjA0NTY=|01813b015c82e099d2915f48b04a43dafda4b7c2a25892480422eeb78ba93fda\"'
+    '_xsrf' => '2|a2533cf9|503b65782542982445cf59ebd3bfc1e2|1535785350'
+    'username-localhost-8888' => '\"2|1:0|10:1536332357|23:username-localhost-8888|44:MmQxMzg4YjI5ZjBiNGM1NmE2NzM4NzdmZTA2ZWFjYWM=|e61c9fb9cb6852cfe9864eff31893237fd5eda33b2a05a48307d2fc9b8cb4a10\"'
+    'PHPSESSID' => 'jg11jibjt30187b41rljaj4u37'
+    '_csrf' => '6fa8df85b1511013b52b455f139a068317e6396bf84d92b7bb5923c7d42d457fa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"H-_CgmoCIuZGKHQydSsT8M37mjL0HFpO\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en-US;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => '_identity=f7369c2c4dbe3a99c74098cf047bd076eea39a39f307f50a44574122222f5867a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A35%3A%22%5B%22supreeth%40aotpl.com%22%2Cnull%2C2592000%5D%22%3B%7D; username-localhost-8889=\"2|1:0|10:1534876186|23:username-localhost-8889|44:YWZiZjcyM2Q0MzY2NDdlM2E4MjAzMWE3ZTY1ZjA0NTY=|01813b015c82e099d2915f48b04a43dafda4b7c2a25892480422eeb78ba93fda\"; _xsrf=2|a2533cf9|503b65782542982445cf59ebd3bfc1e2|1535785350; username-localhost-8888=\"2|1:0|10:1536332357|23:username-localhost-8888|44:MmQxMzg4YjI5ZjBiNGM1NmE2NzM4NzdmZTA2ZWFjYWM=|e61c9fb9cb6852cfe9864eff31893237fd5eda33b2a05a48307d2fc9b8cb4a10\"; PHPSESSID=jg11jibjt30187b41rljaj4u37; _csrf=6fa8df85b1511013b52b455f139a068317e6396bf84d92b7bb5923c7d42d457fa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22H-_CgmoCIuZGKHQydSsT8M37mjL0HFpO%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.29 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.29 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/trial-rest-api/api/index.php'
+    'REMOTE_PORT' => '57236'
+    'REDIRECT_URL' => '/trial-rest-api/api/v1/dashboard/1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/trial-rest-api/api/v1/dashboard/1'
+    'SCRIPT_NAME' => '/trial-rest-api/api/index.php'
+    'PHP_SELF' => '/trial-rest-api/api/index.php'
+    'REQUEST_TIME_FLOAT' => 1536597464.509
+    'REQUEST_TIME' => 1536597464
+]
+2018-09-10 16:37:46 [::1][-][jg11jibjt30187b41rljaj4u37][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "v1/dashboard/1".' in /var/www/html/trial-rest-api/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/www/html/trial-rest-api/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('v1/dashboard/1', Array)
+#1 /var/www/html/trial-rest-api/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/html/trial-rest-api/api/index.php(14): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/html/trial-rest-api/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/html/trial-rest-api/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/html/trial-rest-api/api/index.php(14): yii\base\Application->run()
+#2 {main}
+2018-09-10 16:37:46 [::1][-][jg11jibjt30187b41rljaj4u37][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => 'f7369c2c4dbe3a99c74098cf047bd076eea39a39f307f50a44574122222f5867a:2:{i:0;s:9:\"_identity\";i:1;s:35:\"[\"supreeth@aotpl.com\",null,2592000]\";}'
+    'username-localhost-8889' => '\"2|1:0|10:1534876186|23:username-localhost-8889|44:YWZiZjcyM2Q0MzY2NDdlM2E4MjAzMWE3ZTY1ZjA0NTY=|01813b015c82e099d2915f48b04a43dafda4b7c2a25892480422eeb78ba93fda\"'
+    '_xsrf' => '2|a2533cf9|503b65782542982445cf59ebd3bfc1e2|1535785350'
+    'username-localhost-8888' => '\"2|1:0|10:1536332357|23:username-localhost-8888|44:MmQxMzg4YjI5ZjBiNGM1NmE2NzM4NzdmZTA2ZWFjYWM=|e61c9fb9cb6852cfe9864eff31893237fd5eda33b2a05a48307d2fc9b8cb4a10\"'
+    'PHPSESSID' => 'jg11jibjt30187b41rljaj4u37'
+    '_csrf' => '6fa8df85b1511013b52b455f139a068317e6396bf84d92b7bb5923c7d42d457fa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"H-_CgmoCIuZGKHQydSsT8M37mjL0HFpO\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en-US;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => '_identity=f7369c2c4dbe3a99c74098cf047bd076eea39a39f307f50a44574122222f5867a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A35%3A%22%5B%22supreeth%40aotpl.com%22%2Cnull%2C2592000%5D%22%3B%7D; username-localhost-8889=\"2|1:0|10:1534876186|23:username-localhost-8889|44:YWZiZjcyM2Q0MzY2NDdlM2E4MjAzMWE3ZTY1ZjA0NTY=|01813b015c82e099d2915f48b04a43dafda4b7c2a25892480422eeb78ba93fda\"; _xsrf=2|a2533cf9|503b65782542982445cf59ebd3bfc1e2|1535785350; username-localhost-8888=\"2|1:0|10:1536332357|23:username-localhost-8888|44:MmQxMzg4YjI5ZjBiNGM1NmE2NzM4NzdmZTA2ZWFjYWM=|e61c9fb9cb6852cfe9864eff31893237fd5eda33b2a05a48307d2fc9b8cb4a10\"; PHPSESSID=jg11jibjt30187b41rljaj4u37; _csrf=6fa8df85b1511013b52b455f139a068317e6396bf84d92b7bb5923c7d42d457fa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22H-_CgmoCIuZGKHQydSsT8M37mjL0HFpO%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.29 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.29 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/trial-rest-api/api/index.php'
+    'REMOTE_PORT' => '57238'
+    'REDIRECT_URL' => '/trial-rest-api/api/v1/dashboard/1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/trial-rest-api/api/v1/dashboard/1'
+    'SCRIPT_NAME' => '/trial-rest-api/api/index.php'
+    'PHP_SELF' => '/trial-rest-api/api/index.php'
+    'REQUEST_TIME_FLOAT' => 1536597466.379
+    'REQUEST_TIME' => 1536597466
+]
+2018-09-10 16:37:58 [::1][-][jg11jibjt30187b41rljaj4u37][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "v1/dashboard/1".' in /var/www/html/trial-rest-api/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/www/html/trial-rest-api/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('v1/dashboard/1', Array)
+#1 /var/www/html/trial-rest-api/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/html/trial-rest-api/api/index.php(14): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/html/trial-rest-api/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/html/trial-rest-api/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/html/trial-rest-api/api/index.php(14): yii\base\Application->run()
+#2 {main}
+2018-09-10 16:37:58 [::1][-][jg11jibjt30187b41rljaj4u37][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => 'f7369c2c4dbe3a99c74098cf047bd076eea39a39f307f50a44574122222f5867a:2:{i:0;s:9:\"_identity\";i:1;s:35:\"[\"supreeth@aotpl.com\",null,2592000]\";}'
+    'username-localhost-8889' => '\"2|1:0|10:1534876186|23:username-localhost-8889|44:YWZiZjcyM2Q0MzY2NDdlM2E4MjAzMWE3ZTY1ZjA0NTY=|01813b015c82e099d2915f48b04a43dafda4b7c2a25892480422eeb78ba93fda\"'
+    '_xsrf' => '2|a2533cf9|503b65782542982445cf59ebd3bfc1e2|1535785350'
+    'username-localhost-8888' => '\"2|1:0|10:1536332357|23:username-localhost-8888|44:MmQxMzg4YjI5ZjBiNGM1NmE2NzM4NzdmZTA2ZWFjYWM=|e61c9fb9cb6852cfe9864eff31893237fd5eda33b2a05a48307d2fc9b8cb4a10\"'
+    'PHPSESSID' => 'jg11jibjt30187b41rljaj4u37'
+    '_csrf' => '6fa8df85b1511013b52b455f139a068317e6396bf84d92b7bb5923c7d42d457fa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"H-_CgmoCIuZGKHQydSsT8M37mjL0HFpO\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en-US;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => '_identity=f7369c2c4dbe3a99c74098cf047bd076eea39a39f307f50a44574122222f5867a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A35%3A%22%5B%22supreeth%40aotpl.com%22%2Cnull%2C2592000%5D%22%3B%7D; username-localhost-8889=\"2|1:0|10:1534876186|23:username-localhost-8889|44:YWZiZjcyM2Q0MzY2NDdlM2E4MjAzMWE3ZTY1ZjA0NTY=|01813b015c82e099d2915f48b04a43dafda4b7c2a25892480422eeb78ba93fda\"; _xsrf=2|a2533cf9|503b65782542982445cf59ebd3bfc1e2|1535785350; username-localhost-8888=\"2|1:0|10:1536332357|23:username-localhost-8888|44:MmQxMzg4YjI5ZjBiNGM1NmE2NzM4NzdmZTA2ZWFjYWM=|e61c9fb9cb6852cfe9864eff31893237fd5eda33b2a05a48307d2fc9b8cb4a10\"; PHPSESSID=jg11jibjt30187b41rljaj4u37; _csrf=6fa8df85b1511013b52b455f139a068317e6396bf84d92b7bb5923c7d42d457fa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22H-_CgmoCIuZGKHQydSsT8M37mjL0HFpO%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.29 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.29 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/trial-rest-api/api/index.php'
+    'REMOTE_PORT' => '57246'
+    'REDIRECT_URL' => '/trial-rest-api/api/v1/dashboard/1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/trial-rest-api/api/v1/dashboard/1'
+    'SCRIPT_NAME' => '/trial-rest-api/api/index.php'
+    'PHP_SELF' => '/trial-rest-api/api/index.php'
+    'REQUEST_TIME_FLOAT' => 1536597478.899
+    'REQUEST_TIME' => 1536597478
+]
+2018-09-10 16:38:58 [::1][-][jg11jibjt30187b41rljaj4u37][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "v1/dashboard/thirty".' in /var/www/html/trial-rest-api/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/www/html/trial-rest-api/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('v1/dashboard/th...', Array)
+#1 /var/www/html/trial-rest-api/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/html/trial-rest-api/api/index.php(14): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/html/trial-rest-api/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/html/trial-rest-api/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/html/trial-rest-api/api/index.php(14): yii\base\Application->run()
+#2 {main}
+2018-09-10 16:38:58 [::1][-][jg11jibjt30187b41rljaj4u37][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => 'f7369c2c4dbe3a99c74098cf047bd076eea39a39f307f50a44574122222f5867a:2:{i:0;s:9:\"_identity\";i:1;s:35:\"[\"supreeth@aotpl.com\",null,2592000]\";}'
+    'username-localhost-8889' => '\"2|1:0|10:1534876186|23:username-localhost-8889|44:YWZiZjcyM2Q0MzY2NDdlM2E4MjAzMWE3ZTY1ZjA0NTY=|01813b015c82e099d2915f48b04a43dafda4b7c2a25892480422eeb78ba93fda\"'
+    '_xsrf' => '2|a2533cf9|503b65782542982445cf59ebd3bfc1e2|1535785350'
+    'username-localhost-8888' => '\"2|1:0|10:1536332357|23:username-localhost-8888|44:MmQxMzg4YjI5ZjBiNGM1NmE2NzM4NzdmZTA2ZWFjYWM=|e61c9fb9cb6852cfe9864eff31893237fd5eda33b2a05a48307d2fc9b8cb4a10\"'
+    'PHPSESSID' => 'jg11jibjt30187b41rljaj4u37'
+    '_csrf' => '6fa8df85b1511013b52b455f139a068317e6396bf84d92b7bb5923c7d42d457fa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"H-_CgmoCIuZGKHQydSsT8M37mjL0HFpO\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en-US;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => '_identity=f7369c2c4dbe3a99c74098cf047bd076eea39a39f307f50a44574122222f5867a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A35%3A%22%5B%22supreeth%40aotpl.com%22%2Cnull%2C2592000%5D%22%3B%7D; username-localhost-8889=\"2|1:0|10:1534876186|23:username-localhost-8889|44:YWZiZjcyM2Q0MzY2NDdlM2E4MjAzMWE3ZTY1ZjA0NTY=|01813b015c82e099d2915f48b04a43dafda4b7c2a25892480422eeb78ba93fda\"; _xsrf=2|a2533cf9|503b65782542982445cf59ebd3bfc1e2|1535785350; username-localhost-8888=\"2|1:0|10:1536332357|23:username-localhost-8888|44:MmQxMzg4YjI5ZjBiNGM1NmE2NzM4NzdmZTA2ZWFjYWM=|e61c9fb9cb6852cfe9864eff31893237fd5eda33b2a05a48307d2fc9b8cb4a10\"; PHPSESSID=jg11jibjt30187b41rljaj4u37; _csrf=6fa8df85b1511013b52b455f139a068317e6396bf84d92b7bb5923c7d42d457fa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22H-_CgmoCIuZGKHQydSsT8M37mjL0HFpO%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.29 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.29 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/trial-rest-api/api/index.php'
+    'REMOTE_PORT' => '57250'
+    'REDIRECT_URL' => '/trial-rest-api/api/v1/dashboard/thirty'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/trial-rest-api/api/v1/dashboard/thirty'
+    'SCRIPT_NAME' => '/trial-rest-api/api/index.php'
+    'PHP_SELF' => '/trial-rest-api/api/index.php'
+    'REQUEST_TIME_FLOAT' => 1536597538.807
+    'REQUEST_TIME' => 1536597538
+]
+2018-09-10 16:45:15 [::1][-][jg11jibjt30187b41rljaj4u37][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "v1/dashboard/w".' in /var/www/html/trial-rest-api/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/www/html/trial-rest-api/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('v1/dashboard/w', Array)
+#1 /var/www/html/trial-rest-api/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/html/trial-rest-api/api/index.php(14): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/html/trial-rest-api/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/html/trial-rest-api/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/html/trial-rest-api/api/index.php(14): yii\base\Application->run()
+#2 {main}
+2018-09-10 16:45:15 [::1][-][jg11jibjt30187b41rljaj4u37][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => 'f7369c2c4dbe3a99c74098cf047bd076eea39a39f307f50a44574122222f5867a:2:{i:0;s:9:\"_identity\";i:1;s:35:\"[\"supreeth@aotpl.com\",null,2592000]\";}'
+    'username-localhost-8889' => '\"2|1:0|10:1534876186|23:username-localhost-8889|44:YWZiZjcyM2Q0MzY2NDdlM2E4MjAzMWE3ZTY1ZjA0NTY=|01813b015c82e099d2915f48b04a43dafda4b7c2a25892480422eeb78ba93fda\"'
+    '_xsrf' => '2|a2533cf9|503b65782542982445cf59ebd3bfc1e2|1535785350'
+    'username-localhost-8888' => '\"2|1:0|10:1536332357|23:username-localhost-8888|44:MmQxMzg4YjI5ZjBiNGM1NmE2NzM4NzdmZTA2ZWFjYWM=|e61c9fb9cb6852cfe9864eff31893237fd5eda33b2a05a48307d2fc9b8cb4a10\"'
+    'PHPSESSID' => 'jg11jibjt30187b41rljaj4u37'
+    '_csrf' => '6fa8df85b1511013b52b455f139a068317e6396bf84d92b7bb5923c7d42d457fa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"H-_CgmoCIuZGKHQydSsT8M37mjL0HFpO\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en-US;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => '_identity=f7369c2c4dbe3a99c74098cf047bd076eea39a39f307f50a44574122222f5867a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A35%3A%22%5B%22supreeth%40aotpl.com%22%2Cnull%2C2592000%5D%22%3B%7D; username-localhost-8889=\"2|1:0|10:1534876186|23:username-localhost-8889|44:YWZiZjcyM2Q0MzY2NDdlM2E4MjAzMWE3ZTY1ZjA0NTY=|01813b015c82e099d2915f48b04a43dafda4b7c2a25892480422eeb78ba93fda\"; _xsrf=2|a2533cf9|503b65782542982445cf59ebd3bfc1e2|1535785350; username-localhost-8888=\"2|1:0|10:1536332357|23:username-localhost-8888|44:MmQxMzg4YjI5ZjBiNGM1NmE2NzM4NzdmZTA2ZWFjYWM=|e61c9fb9cb6852cfe9864eff31893237fd5eda33b2a05a48307d2fc9b8cb4a10\"; PHPSESSID=jg11jibjt30187b41rljaj4u37; _csrf=6fa8df85b1511013b52b455f139a068317e6396bf84d92b7bb5923c7d42d457fa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22H-_CgmoCIuZGKHQydSsT8M37mjL0HFpO%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.29 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.29 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/trial-rest-api/api/index.php'
+    'REMOTE_PORT' => '57294'
+    'REDIRECT_URL' => '/trial-rest-api/api/v1/dashboard/w'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/trial-rest-api/api/v1/dashboard/w'
+    'SCRIPT_NAME' => '/trial-rest-api/api/index.php'
+    'PHP_SELF' => '/trial-rest-api/api/index.php'
+    'REQUEST_TIME_FLOAT' => 1536597915.918
+    'REQUEST_TIME' => 1536597915
+]
+2018-09-10 16:45:27 [::1][-][jg11jibjt30187b41rljaj4u37][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "v1/dashboard/".' in /var/www/html/trial-rest-api/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/www/html/trial-rest-api/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('v1/dashboard/', Array)
+#1 /var/www/html/trial-rest-api/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/html/trial-rest-api/api/index.php(14): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/html/trial-rest-api/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/html/trial-rest-api/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/html/trial-rest-api/api/index.php(14): yii\base\Application->run()
+#2 {main}
+2018-09-10 16:45:27 [::1][-][jg11jibjt30187b41rljaj4u37][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => 'f7369c2c4dbe3a99c74098cf047bd076eea39a39f307f50a44574122222f5867a:2:{i:0;s:9:\"_identity\";i:1;s:35:\"[\"supreeth@aotpl.com\",null,2592000]\";}'
+    'username-localhost-8889' => '\"2|1:0|10:1534876186|23:username-localhost-8889|44:YWZiZjcyM2Q0MzY2NDdlM2E4MjAzMWE3ZTY1ZjA0NTY=|01813b015c82e099d2915f48b04a43dafda4b7c2a25892480422eeb78ba93fda\"'
+    '_xsrf' => '2|a2533cf9|503b65782542982445cf59ebd3bfc1e2|1535785350'
+    'username-localhost-8888' => '\"2|1:0|10:1536332357|23:username-localhost-8888|44:MmQxMzg4YjI5ZjBiNGM1NmE2NzM4NzdmZTA2ZWFjYWM=|e61c9fb9cb6852cfe9864eff31893237fd5eda33b2a05a48307d2fc9b8cb4a10\"'
+    'PHPSESSID' => 'jg11jibjt30187b41rljaj4u37'
+    '_csrf' => '6fa8df85b1511013b52b455f139a068317e6396bf84d92b7bb5923c7d42d457fa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"H-_CgmoCIuZGKHQydSsT8M37mjL0HFpO\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en-US;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => '_identity=f7369c2c4dbe3a99c74098cf047bd076eea39a39f307f50a44574122222f5867a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A35%3A%22%5B%22supreeth%40aotpl.com%22%2Cnull%2C2592000%5D%22%3B%7D; username-localhost-8889=\"2|1:0|10:1534876186|23:username-localhost-8889|44:YWZiZjcyM2Q0MzY2NDdlM2E4MjAzMWE3ZTY1ZjA0NTY=|01813b015c82e099d2915f48b04a43dafda4b7c2a25892480422eeb78ba93fda\"; _xsrf=2|a2533cf9|503b65782542982445cf59ebd3bfc1e2|1535785350; username-localhost-8888=\"2|1:0|10:1536332357|23:username-localhost-8888|44:MmQxMzg4YjI5ZjBiNGM1NmE2NzM4NzdmZTA2ZWFjYWM=|e61c9fb9cb6852cfe9864eff31893237fd5eda33b2a05a48307d2fc9b8cb4a10\"; PHPSESSID=jg11jibjt30187b41rljaj4u37; _csrf=6fa8df85b1511013b52b455f139a068317e6396bf84d92b7bb5923c7d42d457fa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22H-_CgmoCIuZGKHQydSsT8M37mjL0HFpO%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.29 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.29 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/trial-rest-api/api/index.php'
+    'REMOTE_PORT' => '57294'
+    'REDIRECT_URL' => '/trial-rest-api/api/v1/dashboard/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/trial-rest-api/api/v1/dashboard/'
+    'SCRIPT_NAME' => '/trial-rest-api/api/index.php'
+    'PHP_SELF' => '/trial-rest-api/api/index.php'
+    'REQUEST_TIME_FLOAT' => 1536597927.483
+    'REQUEST_TIME' => 1536597927
+]
+2018-09-10 17:02:56 [::1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: v1/default/form' in /var/www/html/trial-rest-api/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /var/www/html/trial-rest-api/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('form', Array)
+#1 /var/www/html/trial-rest-api/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('v1/default/form', Array)
+#2 /var/www/html/trial-rest-api/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /var/www/html/trial-rest-api/api/index.php(14): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/html/trial-rest-api/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/html/trial-rest-api/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/html/trial-rest-api/api/index.php(14): yii\base\Application->run()
+#2 {main}
+2018-09-10 17:02:56 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_POSTMAN_TOKEN' => 'b0fe282a-c7f9-4485-b7e4-dc93287d86ae'
+    'CONTENT_TYPE' => 'text/plain'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.3.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'CONTENT_LENGTH' => '30'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.29 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.29 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/trial-rest-api/api/index.php'
+    'REMOTE_PORT' => '57444'
+    'REDIRECT_URL' => '/trial-rest-api/api/v1/default/form'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/trial-rest-api/api/v1/default/form'
+    'SCRIPT_NAME' => '/trial-rest-api/api/index.php'
+    'PHP_SELF' => '/trial-rest-api/api/index.php'
+    'REQUEST_TIME_FLOAT' => 1536598976.133
+    'REQUEST_TIME' => 1536598976
+]
+2018-09-10 17:12:13 [::1][-][jg11jibjt30187b41rljaj4u37][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "v1/dashboard/".' in /var/www/html/trial-rest-api/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/www/html/trial-rest-api/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('v1/dashboard/', Array)
+#1 /var/www/html/trial-rest-api/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/html/trial-rest-api/api/index.php(14): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/html/trial-rest-api/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/html/trial-rest-api/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/html/trial-rest-api/api/index.php(14): yii\base\Application->run()
+#2 {main}
+2018-09-10 17:12:13 [::1][-][jg11jibjt30187b41rljaj4u37][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => 'f7369c2c4dbe3a99c74098cf047bd076eea39a39f307f50a44574122222f5867a:2:{i:0;s:9:\"_identity\";i:1;s:35:\"[\"supreeth@aotpl.com\",null,2592000]\";}'
+    'username-localhost-8889' => '\"2|1:0|10:1534876186|23:username-localhost-8889|44:YWZiZjcyM2Q0MzY2NDdlM2E4MjAzMWE3ZTY1ZjA0NTY=|01813b015c82e099d2915f48b04a43dafda4b7c2a25892480422eeb78ba93fda\"'
+    '_xsrf' => '2|a2533cf9|503b65782542982445cf59ebd3bfc1e2|1535785350'
+    'username-localhost-8888' => '\"2|1:0|10:1536332357|23:username-localhost-8888|44:MmQxMzg4YjI5ZjBiNGM1NmE2NzM4NzdmZTA2ZWFjYWM=|e61c9fb9cb6852cfe9864eff31893237fd5eda33b2a05a48307d2fc9b8cb4a10\"'
+    'PHPSESSID' => 'jg11jibjt30187b41rljaj4u37'
+    '_csrf' => '6fa8df85b1511013b52b455f139a068317e6396bf84d92b7bb5923c7d42d457fa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"H-_CgmoCIuZGKHQydSsT8M37mjL0HFpO\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en-US;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => '_identity=f7369c2c4dbe3a99c74098cf047bd076eea39a39f307f50a44574122222f5867a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A35%3A%22%5B%22supreeth%40aotpl.com%22%2Cnull%2C2592000%5D%22%3B%7D; username-localhost-8889=\"2|1:0|10:1534876186|23:username-localhost-8889|44:YWZiZjcyM2Q0MzY2NDdlM2E4MjAzMWE3ZTY1ZjA0NTY=|01813b015c82e099d2915f48b04a43dafda4b7c2a25892480422eeb78ba93fda\"; _xsrf=2|a2533cf9|503b65782542982445cf59ebd3bfc1e2|1535785350; username-localhost-8888=\"2|1:0|10:1536332357|23:username-localhost-8888|44:MmQxMzg4YjI5ZjBiNGM1NmE2NzM4NzdmZTA2ZWFjYWM=|e61c9fb9cb6852cfe9864eff31893237fd5eda33b2a05a48307d2fc9b8cb4a10\"; PHPSESSID=jg11jibjt30187b41rljaj4u37; _csrf=6fa8df85b1511013b52b455f139a068317e6396bf84d92b7bb5923c7d42d457fa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22H-_CgmoCIuZGKHQydSsT8M37mjL0HFpO%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.29 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.29 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/trial-rest-api/api/index.php'
+    'REMOTE_PORT' => '57522'
+    'REDIRECT_URL' => '/trial-rest-api/api/v1/dashboard/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/trial-rest-api/api/v1/dashboard/'
+    'SCRIPT_NAME' => '/trial-rest-api/api/index.php'
+    'PHP_SELF' => '/trial-rest-api/api/index.php'
+    'REQUEST_TIME_FLOAT' => 1536599533.027
+    'REQUEST_TIME' => 1536599533
+]
+2018-09-10 17:12:19 [::1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'api\modules\v1\controllers\Yii' not found' in /var/www/html/trial-rest-api/api/modules/v1/controllers/DefaultController.php:22
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2018-09-10 17:12:19 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_POSTMAN_TOKEN' => '49684de9-374a-4642-ac45-e7a98986c4ce'
+    'CONTENT_TYPE' => 'text/plain'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.3.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'CONTENT_LENGTH' => '30'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.29 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.29 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/trial-rest-api/api/index.php'
+    'REMOTE_PORT' => '57528'
+    'REDIRECT_URL' => '/trial-rest-api/api/v1/default/form'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/trial-rest-api/api/v1/default/form'
+    'SCRIPT_NAME' => '/trial-rest-api/api/index.php'
+    'PHP_SELF' => '/trial-rest-api/api/index.php'
+    'REQUEST_TIME_FLOAT' => 1536599539.299
+    'REQUEST_TIME' => 1536599539
+]
+2018-09-10 17:34:09 [::1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: v1/default/form1' in /var/www/html/trial-rest-api/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /var/www/html/trial-rest-api/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('form1', Array)
+#1 /var/www/html/trial-rest-api/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('v1/default/form...', Array)
+#2 /var/www/html/trial-rest-api/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /var/www/html/trial-rest-api/api/index.php(14): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/html/trial-rest-api/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/html/trial-rest-api/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/html/trial-rest-api/api/index.php(14): yii\base\Application->run()
+#2 {main}
+2018-09-10 17:34:09 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'CONTENT_TYPE' => 'application/json'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_POSTMAN_TOKEN' => '5e26fb5c-839d-4a9f-912c-f145f5dbc9f1'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.3.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'CONTENT_LENGTH' => '30'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.29 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.29 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/trial-rest-api/api/index.php'
+    'REMOTE_PORT' => '57662'
+    'REDIRECT_URL' => '/trial-rest-api/api/v1/default/form1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/trial-rest-api/api/v1/default/form1'
+    'SCRIPT_NAME' => '/trial-rest-api/api/index.php'
+    'PHP_SELF' => '/trial-rest-api/api/index.php'
+    'REQUEST_TIME_FLOAT' => 1536600849.601
+    'REQUEST_TIME' => 1536600849
+]
+2018-09-10 18:42:52 [::1][-][jg11jibjt30187b41rljaj4u37][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "v1/dashboard/".' in /var/www/html/trial-rest-api/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/www/html/trial-rest-api/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('v1/dashboard/', Array)
+#1 /var/www/html/trial-rest-api/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/html/trial-rest-api/api/index.php(14): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/html/trial-rest-api/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/html/trial-rest-api/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/html/trial-rest-api/api/index.php(14): yii\base\Application->run()
+#2 {main}
+2018-09-10 18:42:52 [::1][-][jg11jibjt30187b41rljaj4u37][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => 'f7369c2c4dbe3a99c74098cf047bd076eea39a39f307f50a44574122222f5867a:2:{i:0;s:9:\"_identity\";i:1;s:35:\"[\"supreeth@aotpl.com\",null,2592000]\";}'
+    'username-localhost-8889' => '\"2|1:0|10:1534876186|23:username-localhost-8889|44:YWZiZjcyM2Q0MzY2NDdlM2E4MjAzMWE3ZTY1ZjA0NTY=|01813b015c82e099d2915f48b04a43dafda4b7c2a25892480422eeb78ba93fda\"'
+    '_xsrf' => '2|a2533cf9|503b65782542982445cf59ebd3bfc1e2|1535785350'
+    'username-localhost-8888' => '\"2|1:0|10:1536332357|23:username-localhost-8888|44:MmQxMzg4YjI5ZjBiNGM1NmE2NzM4NzdmZTA2ZWFjYWM=|e61c9fb9cb6852cfe9864eff31893237fd5eda33b2a05a48307d2fc9b8cb4a10\"'
+    'PHPSESSID' => 'jg11jibjt30187b41rljaj4u37'
+    '_csrf' => '6fa8df85b1511013b52b455f139a068317e6396bf84d92b7bb5923c7d42d457fa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"H-_CgmoCIuZGKHQydSsT8M37mjL0HFpO\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en-US;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => '_identity=f7369c2c4dbe3a99c74098cf047bd076eea39a39f307f50a44574122222f5867a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A35%3A%22%5B%22supreeth%40aotpl.com%22%2Cnull%2C2592000%5D%22%3B%7D; username-localhost-8889=\"2|1:0|10:1534876186|23:username-localhost-8889|44:YWZiZjcyM2Q0MzY2NDdlM2E4MjAzMWE3ZTY1ZjA0NTY=|01813b015c82e099d2915f48b04a43dafda4b7c2a25892480422eeb78ba93fda\"; _xsrf=2|a2533cf9|503b65782542982445cf59ebd3bfc1e2|1535785350; username-localhost-8888=\"2|1:0|10:1536332357|23:username-localhost-8888|44:MmQxMzg4YjI5ZjBiNGM1NmE2NzM4NzdmZTA2ZWFjYWM=|e61c9fb9cb6852cfe9864eff31893237fd5eda33b2a05a48307d2fc9b8cb4a10\"; PHPSESSID=jg11jibjt30187b41rljaj4u37; _csrf=6fa8df85b1511013b52b455f139a068317e6396bf84d92b7bb5923c7d42d457fa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22H-_CgmoCIuZGKHQydSsT8M37mjL0HFpO%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.29 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.29 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/trial-rest-api/api/index.php'
+    'REMOTE_PORT' => '58032'
+    'REDIRECT_URL' => '/trial-rest-api/api/v1/dashboard/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/trial-rest-api/api/v1/dashboard/'
+    'SCRIPT_NAME' => '/trial-rest-api/api/index.php'
+    'PHP_SELF' => '/trial-rest-api/api/index.php'
+    'REQUEST_TIME_FLOAT' => 1536604972.858
+    'REQUEST_TIME' => 1536604972
+]
+2018-09-11 07:23:03 [::1][-][-][error][yii\web\HttpException:400] exception 'yii\web\BadRequestHttpException' with message 'Missing required parameters: age' in /var/www/html/trial-rest-api/vendor/yiisoft/yii2/web/Controller.php:149
+Stack trace:
+#0 /var/www/html/trial-rest-api/vendor/yiisoft/yii2/base/InlineAction.php(51): yii\web\Controller->bindActionParams(Object(yii\base\InlineAction), Array)
+#1 /var/www/html/trial-rest-api/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#2 /var/www/html/trial-rest-api/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('', Array)
+#3 /var/www/html/trial-rest-api/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('v1', Array)
+#4 /var/www/html/trial-rest-api/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#5 /var/www/html/trial-rest-api/api/index.php(14): yii\base\Application->run()
+#6 {main}
+2018-09-11 07:23:02 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => 'f7369c2c4dbe3a99c74098cf047bd076eea39a39f307f50a44574122222f5867a:2:{i:0;s:9:\"_identity\";i:1;s:35:\"[\"supreeth@aotpl.com\",null,2592000]\";}'
+    'username-localhost-8889' => '\"2|1:0|10:1534876186|23:username-localhost-8889|44:YWZiZjcyM2Q0MzY2NDdlM2E4MjAzMWE3ZTY1ZjA0NTY=|01813b015c82e099d2915f48b04a43dafda4b7c2a25892480422eeb78ba93fda\"'
+    '_xsrf' => '2|a2533cf9|503b65782542982445cf59ebd3bfc1e2|1535785350'
+    'username-localhost-8888' => '\"2|1:0|10:1536332357|23:username-localhost-8888|44:MmQxMzg4YjI5ZjBiNGM1NmE2NzM4NzdmZTA2ZWFjYWM=|e61c9fb9cb6852cfe9864eff31893237fd5eda33b2a05a48307d2fc9b8cb4a10\"'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en-US;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => '_identity=f7369c2c4dbe3a99c74098cf047bd076eea39a39f307f50a44574122222f5867a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A35%3A%22%5B%22supreeth%40aotpl.com%22%2Cnull%2C2592000%5D%22%3B%7D; username-localhost-8889=\"2|1:0|10:1534876186|23:username-localhost-8889|44:YWZiZjcyM2Q0MzY2NDdlM2E4MjAzMWE3ZTY1ZjA0NTY=|01813b015c82e099d2915f48b04a43dafda4b7c2a25892480422eeb78ba93fda\"; _xsrf=2|a2533cf9|503b65782542982445cf59ebd3bfc1e2|1535785350; username-localhost-8888=\"2|1:0|10:1536332357|23:username-localhost-8888|44:MmQxMzg4YjI5ZjBiNGM1NmE2NzM4NzdmZTA2ZWFjYWM=|e61c9fb9cb6852cfe9864eff31893237fd5eda33b2a05a48307d2fc9b8cb4a10\"'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.29 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.29 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/trial-rest-api/api/index.php'
+    'REMOTE_PORT' => '52438'
+    'REDIRECT_URL' => '/trial-rest-api/api/v1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/trial-rest-api/api/v1'
+    'SCRIPT_NAME' => '/trial-rest-api/api/index.php'
+    'PHP_SELF' => '/trial-rest-api/api/index.php'
+    'REQUEST_TIME_FLOAT' => 1536650582.238
+    'REQUEST_TIME' => 1536650582
+]
+2018-09-11 07:23:09 [::1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "v1/11".' in /var/www/html/trial-rest-api/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/www/html/trial-rest-api/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('v1/11', Array)
+#1 /var/www/html/trial-rest-api/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/html/trial-rest-api/api/index.php(14): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/html/trial-rest-api/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/html/trial-rest-api/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/html/trial-rest-api/api/index.php(14): yii\base\Application->run()
+#2 {main}
+2018-09-11 07:23:09 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => 'f7369c2c4dbe3a99c74098cf047bd076eea39a39f307f50a44574122222f5867a:2:{i:0;s:9:\"_identity\";i:1;s:35:\"[\"supreeth@aotpl.com\",null,2592000]\";}'
+    'username-localhost-8889' => '\"2|1:0|10:1534876186|23:username-localhost-8889|44:YWZiZjcyM2Q0MzY2NDdlM2E4MjAzMWE3ZTY1ZjA0NTY=|01813b015c82e099d2915f48b04a43dafda4b7c2a25892480422eeb78ba93fda\"'
+    '_xsrf' => '2|a2533cf9|503b65782542982445cf59ebd3bfc1e2|1535785350'
+    'username-localhost-8888' => '\"2|1:0|10:1536332357|23:username-localhost-8888|44:MmQxMzg4YjI5ZjBiNGM1NmE2NzM4NzdmZTA2ZWFjYWM=|e61c9fb9cb6852cfe9864eff31893237fd5eda33b2a05a48307d2fc9b8cb4a10\"'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en-US;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => '_identity=f7369c2c4dbe3a99c74098cf047bd076eea39a39f307f50a44574122222f5867a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A35%3A%22%5B%22supreeth%40aotpl.com%22%2Cnull%2C2592000%5D%22%3B%7D; username-localhost-8889=\"2|1:0|10:1534876186|23:username-localhost-8889|44:YWZiZjcyM2Q0MzY2NDdlM2E4MjAzMWE3ZTY1ZjA0NTY=|01813b015c82e099d2915f48b04a43dafda4b7c2a25892480422eeb78ba93fda\"; _xsrf=2|a2533cf9|503b65782542982445cf59ebd3bfc1e2|1535785350; username-localhost-8888=\"2|1:0|10:1536332357|23:username-localhost-8888|44:MmQxMzg4YjI5ZjBiNGM1NmE2NzM4NzdmZTA2ZWFjYWM=|e61c9fb9cb6852cfe9864eff31893237fd5eda33b2a05a48307d2fc9b8cb4a10\"'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.29 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.29 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/trial-rest-api/api/index.php'
+    'REMOTE_PORT' => '52442'
+    'REDIRECT_URL' => '/trial-rest-api/api/v1/11'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/trial-rest-api/api/v1/11'
+    'SCRIPT_NAME' => '/trial-rest-api/api/index.php'
+    'PHP_SELF' => '/trial-rest-api/api/index.php'
+    'REQUEST_TIME_FLOAT' => 1536650589.813
+    'REQUEST_TIME' => 1536650589
+]
+2018-09-11 07:23:42 [::1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "v1/default/action/1".' in /var/www/html/trial-rest-api/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/www/html/trial-rest-api/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('v1/default/acti...', Array)
+#1 /var/www/html/trial-rest-api/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/html/trial-rest-api/api/index.php(14): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/html/trial-rest-api/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/html/trial-rest-api/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/html/trial-rest-api/api/index.php(14): yii\base\Application->run()
+#2 {main}
+2018-09-11 07:23:42 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => 'f7369c2c4dbe3a99c74098cf047bd076eea39a39f307f50a44574122222f5867a:2:{i:0;s:9:\"_identity\";i:1;s:35:\"[\"supreeth@aotpl.com\",null,2592000]\";}'
+    'username-localhost-8889' => '\"2|1:0|10:1534876186|23:username-localhost-8889|44:YWZiZjcyM2Q0MzY2NDdlM2E4MjAzMWE3ZTY1ZjA0NTY=|01813b015c82e099d2915f48b04a43dafda4b7c2a25892480422eeb78ba93fda\"'
+    '_xsrf' => '2|a2533cf9|503b65782542982445cf59ebd3bfc1e2|1535785350'
+    'username-localhost-8888' => '\"2|1:0|10:1536332357|23:username-localhost-8888|44:MmQxMzg4YjI5ZjBiNGM1NmE2NzM4NzdmZTA2ZWFjYWM=|e61c9fb9cb6852cfe9864eff31893237fd5eda33b2a05a48307d2fc9b8cb4a10\"'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en-US;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => '_identity=f7369c2c4dbe3a99c74098cf047bd076eea39a39f307f50a44574122222f5867a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A35%3A%22%5B%22supreeth%40aotpl.com%22%2Cnull%2C2592000%5D%22%3B%7D; username-localhost-8889=\"2|1:0|10:1534876186|23:username-localhost-8889|44:YWZiZjcyM2Q0MzY2NDdlM2E4MjAzMWE3ZTY1ZjA0NTY=|01813b015c82e099d2915f48b04a43dafda4b7c2a25892480422eeb78ba93fda\"; _xsrf=2|a2533cf9|503b65782542982445cf59ebd3bfc1e2|1535785350; username-localhost-8888=\"2|1:0|10:1536332357|23:username-localhost-8888|44:MmQxMzg4YjI5ZjBiNGM1NmE2NzM4NzdmZTA2ZWFjYWM=|e61c9fb9cb6852cfe9864eff31893237fd5eda33b2a05a48307d2fc9b8cb4a10\"'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.29 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.29 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/trial-rest-api/api/index.php'
+    'REMOTE_PORT' => '52452'
+    'REDIRECT_URL' => '/trial-rest-api/api/v1/default/action/1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/trial-rest-api/api/v1/default/action/1'
+    'SCRIPT_NAME' => '/trial-rest-api/api/index.php'
+    'PHP_SELF' => '/trial-rest-api/api/index.php'
+    'REQUEST_TIME_FLOAT' => 1536650622.441
+    'REQUEST_TIME' => 1536650622
+]
+2018-09-11 07:23:46 [::1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: v1/default/action' in /var/www/html/trial-rest-api/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /var/www/html/trial-rest-api/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('action', Array)
+#1 /var/www/html/trial-rest-api/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('v1/default/acti...', Array)
+#2 /var/www/html/trial-rest-api/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /var/www/html/trial-rest-api/api/index.php(14): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/html/trial-rest-api/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/html/trial-rest-api/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/html/trial-rest-api/api/index.php(14): yii\base\Application->run()
+#2 {main}
+2018-09-11 07:23:46 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => 'f7369c2c4dbe3a99c74098cf047bd076eea39a39f307f50a44574122222f5867a:2:{i:0;s:9:\"_identity\";i:1;s:35:\"[\"supreeth@aotpl.com\",null,2592000]\";}'
+    'username-localhost-8889' => '\"2|1:0|10:1534876186|23:username-localhost-8889|44:YWZiZjcyM2Q0MzY2NDdlM2E4MjAzMWE3ZTY1ZjA0NTY=|01813b015c82e099d2915f48b04a43dafda4b7c2a25892480422eeb78ba93fda\"'
+    '_xsrf' => '2|a2533cf9|503b65782542982445cf59ebd3bfc1e2|1535785350'
+    'username-localhost-8888' => '\"2|1:0|10:1536332357|23:username-localhost-8888|44:MmQxMzg4YjI5ZjBiNGM1NmE2NzM4NzdmZTA2ZWFjYWM=|e61c9fb9cb6852cfe9864eff31893237fd5eda33b2a05a48307d2fc9b8cb4a10\"'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en-US;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => '_identity=f7369c2c4dbe3a99c74098cf047bd076eea39a39f307f50a44574122222f5867a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A35%3A%22%5B%22supreeth%40aotpl.com%22%2Cnull%2C2592000%5D%22%3B%7D; username-localhost-8889=\"2|1:0|10:1534876186|23:username-localhost-8889|44:YWZiZjcyM2Q0MzY2NDdlM2E4MjAzMWE3ZTY1ZjA0NTY=|01813b015c82e099d2915f48b04a43dafda4b7c2a25892480422eeb78ba93fda\"; _xsrf=2|a2533cf9|503b65782542982445cf59ebd3bfc1e2|1535785350; username-localhost-8888=\"2|1:0|10:1536332357|23:username-localhost-8888|44:MmQxMzg4YjI5ZjBiNGM1NmE2NzM4NzdmZTA2ZWFjYWM=|e61c9fb9cb6852cfe9864eff31893237fd5eda33b2a05a48307d2fc9b8cb4a10\"'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.29 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.29 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/trial-rest-api/api/index.php'
+    'REMOTE_PORT' => '52452'
+    'REDIRECT_URL' => '/trial-rest-api/api/v1/default/action/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/trial-rest-api/api/v1/default/action/'
+    'SCRIPT_NAME' => '/trial-rest-api/api/index.php'
+    'PHP_SELF' => '/trial-rest-api/api/index.php'
+    'REQUEST_TIME_FLOAT' => 1536650626.879
+    'REQUEST_TIME' => 1536650626
+]
+2018-09-11 07:28:19 [::1][-][-][error][yii\web\HttpException:400] exception 'yii\web\BadRequestHttpException' with message 'Missing required parameters: age' in /var/www/html/trial-rest-api/vendor/yiisoft/yii2/web/Controller.php:149
+Stack trace:
+#0 /var/www/html/trial-rest-api/vendor/yiisoft/yii2/base/InlineAction.php(51): yii\web\Controller->bindActionParams(Object(yii\base\InlineAction), Array)
+#1 /var/www/html/trial-rest-api/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#2 /var/www/html/trial-rest-api/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('', Array)
+#3 /var/www/html/trial-rest-api/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('v1/default/', Array)
+#4 /var/www/html/trial-rest-api/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#5 /var/www/html/trial-rest-api/api/index.php(14): yii\base\Application->run()
+#6 {main}
+2018-09-11 07:28:19 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => 'f7369c2c4dbe3a99c74098cf047bd076eea39a39f307f50a44574122222f5867a:2:{i:0;s:9:\"_identity\";i:1;s:35:\"[\"supreeth@aotpl.com\",null,2592000]\";}'
+    'username-localhost-8889' => '\"2|1:0|10:1534876186|23:username-localhost-8889|44:YWZiZjcyM2Q0MzY2NDdlM2E4MjAzMWE3ZTY1ZjA0NTY=|01813b015c82e099d2915f48b04a43dafda4b7c2a25892480422eeb78ba93fda\"'
+    '_xsrf' => '2|a2533cf9|503b65782542982445cf59ebd3bfc1e2|1535785350'
+    'username-localhost-8888' => '\"2|1:0|10:1536332357|23:username-localhost-8888|44:MmQxMzg4YjI5ZjBiNGM1NmE2NzM4NzdmZTA2ZWFjYWM=|e61c9fb9cb6852cfe9864eff31893237fd5eda33b2a05a48307d2fc9b8cb4a10\"'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en-US;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => '_identity=f7369c2c4dbe3a99c74098cf047bd076eea39a39f307f50a44574122222f5867a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A35%3A%22%5B%22supreeth%40aotpl.com%22%2Cnull%2C2592000%5D%22%3B%7D; username-localhost-8889=\"2|1:0|10:1534876186|23:username-localhost-8889|44:YWZiZjcyM2Q0MzY2NDdlM2E4MjAzMWE3ZTY1ZjA0NTY=|01813b015c82e099d2915f48b04a43dafda4b7c2a25892480422eeb78ba93fda\"; _xsrf=2|a2533cf9|503b65782542982445cf59ebd3bfc1e2|1535785350; username-localhost-8888=\"2|1:0|10:1536332357|23:username-localhost-8888|44:MmQxMzg4YjI5ZjBiNGM1NmE2NzM4NzdmZTA2ZWFjYWM=|e61c9fb9cb6852cfe9864eff31893237fd5eda33b2a05a48307d2fc9b8cb4a10\"'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.29 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.29 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/trial-rest-api/api/index.php'
+    'REMOTE_PORT' => '52464'
+    'REDIRECT_URL' => '/trial-rest-api/api/v1/default/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/trial-rest-api/api/v1/default/'
+    'SCRIPT_NAME' => '/trial-rest-api/api/index.php'
+    'PHP_SELF' => '/trial-rest-api/api/index.php'
+    'REQUEST_TIME_FLOAT' => 1536650899.54
+    'REQUEST_TIME' => 1536650899
+]
+2018-09-11 07:39:21 [::1][-][nadh71cfeqi04tg938nbe63732][error][yii\web\HttpException:400] exception 'yii\web\BadRequestHttpException' with message 'Missing required parameters: age' in /var/www/html/trial-rest-api/vendor/yiisoft/yii2/web/Controller.php:149
+Stack trace:
+#0 /var/www/html/trial-rest-api/vendor/yiisoft/yii2/base/InlineAction.php(51): yii\web\Controller->bindActionParams(Object(yii\base\InlineAction), Array)
+#1 /var/www/html/trial-rest-api/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#2 /var/www/html/trial-rest-api/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('', Array)
+#3 /var/www/html/trial-rest-api/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('v1', Array)
+#4 /var/www/html/trial-rest-api/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#5 /var/www/html/trial-rest-api/api/index.php(14): yii\base\Application->run()
+#6 {main}
+2018-09-11 07:39:21 [::1][-][nadh71cfeqi04tg938nbe63732][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => 'f7369c2c4dbe3a99c74098cf047bd076eea39a39f307f50a44574122222f5867a:2:{i:0;s:9:\"_identity\";i:1;s:35:\"[\"supreeth@aotpl.com\",null,2592000]\";}'
+    'username-localhost-8889' => '\"2|1:0|10:1534876186|23:username-localhost-8889|44:YWZiZjcyM2Q0MzY2NDdlM2E4MjAzMWE3ZTY1ZjA0NTY=|01813b015c82e099d2915f48b04a43dafda4b7c2a25892480422eeb78ba93fda\"'
+    '_xsrf' => '2|a2533cf9|503b65782542982445cf59ebd3bfc1e2|1535785350'
+    'username-localhost-8888' => '\"2|1:0|10:1536332357|23:username-localhost-8888|44:MmQxMzg4YjI5ZjBiNGM1NmE2NzM4NzdmZTA2ZWFjYWM=|e61c9fb9cb6852cfe9864eff31893237fd5eda33b2a05a48307d2fc9b8cb4a10\"'
+    'PHPSESSID' => 'nadh71cfeqi04tg938nbe63732'
+    '_csrf' => '3fb5cf20b5e80e19d223b6d5c35053337699ea54804791f8dde10e0a537d15eea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4GUUdqJ5rqLsb3ExSk02NTRDgQVgX9mP\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en-US;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => '_identity=f7369c2c4dbe3a99c74098cf047bd076eea39a39f307f50a44574122222f5867a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A35%3A%22%5B%22supreeth%40aotpl.com%22%2Cnull%2C2592000%5D%22%3B%7D; username-localhost-8889=\"2|1:0|10:1534876186|23:username-localhost-8889|44:YWZiZjcyM2Q0MzY2NDdlM2E4MjAzMWE3ZTY1ZjA0NTY=|01813b015c82e099d2915f48b04a43dafda4b7c2a25892480422eeb78ba93fda\"; _xsrf=2|a2533cf9|503b65782542982445cf59ebd3bfc1e2|1535785350; username-localhost-8888=\"2|1:0|10:1536332357|23:username-localhost-8888|44:MmQxMzg4YjI5ZjBiNGM1NmE2NzM4NzdmZTA2ZWFjYWM=|e61c9fb9cb6852cfe9864eff31893237fd5eda33b2a05a48307d2fc9b8cb4a10\"; PHPSESSID=nadh71cfeqi04tg938nbe63732; _csrf=3fb5cf20b5e80e19d223b6d5c35053337699ea54804791f8dde10e0a537d15eea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224GUUdqJ5rqLsb3ExSk02NTRDgQVgX9mP%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.29 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.29 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/trial-rest-api/api/index.php'
+    'REMOTE_PORT' => '52592'
+    'REDIRECT_URL' => '/trial-rest-api/api/v1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/trial-rest-api/api/v1'
+    'SCRIPT_NAME' => '/trial-rest-api/api/index.php'
+    'PHP_SELF' => '/trial-rest-api/api/index.php'
+    'REQUEST_TIME_FLOAT' => 1536651561.758
+    'REQUEST_TIME' => 1536651561
+]
+2018-09-11 07:40:04 [::1][-][nadh71cfeqi04tg938nbe63732][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "v1/default/index/1".' in /var/www/html/trial-rest-api/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/www/html/trial-rest-api/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('v1/default/inde...', Array)
+#1 /var/www/html/trial-rest-api/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/html/trial-rest-api/api/index.php(14): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/html/trial-rest-api/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/html/trial-rest-api/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/html/trial-rest-api/api/index.php(14): yii\base\Application->run()
+#2 {main}
+2018-09-11 07:40:04 [::1][-][nadh71cfeqi04tg938nbe63732][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => 'f7369c2c4dbe3a99c74098cf047bd076eea39a39f307f50a44574122222f5867a:2:{i:0;s:9:\"_identity\";i:1;s:35:\"[\"supreeth@aotpl.com\",null,2592000]\";}'
+    'username-localhost-8889' => '\"2|1:0|10:1534876186|23:username-localhost-8889|44:YWZiZjcyM2Q0MzY2NDdlM2E4MjAzMWE3ZTY1ZjA0NTY=|01813b015c82e099d2915f48b04a43dafda4b7c2a25892480422eeb78ba93fda\"'
+    '_xsrf' => '2|a2533cf9|503b65782542982445cf59ebd3bfc1e2|1535785350'
+    'username-localhost-8888' => '\"2|1:0|10:1536332357|23:username-localhost-8888|44:MmQxMzg4YjI5ZjBiNGM1NmE2NzM4NzdmZTA2ZWFjYWM=|e61c9fb9cb6852cfe9864eff31893237fd5eda33b2a05a48307d2fc9b8cb4a10\"'
+    'PHPSESSID' => 'nadh71cfeqi04tg938nbe63732'
+    '_csrf' => '3fb5cf20b5e80e19d223b6d5c35053337699ea54804791f8dde10e0a537d15eea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4GUUdqJ5rqLsb3ExSk02NTRDgQVgX9mP\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en-US;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => '_identity=f7369c2c4dbe3a99c74098cf047bd076eea39a39f307f50a44574122222f5867a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A35%3A%22%5B%22supreeth%40aotpl.com%22%2Cnull%2C2592000%5D%22%3B%7D; username-localhost-8889=\"2|1:0|10:1534876186|23:username-localhost-8889|44:YWZiZjcyM2Q0MzY2NDdlM2E4MjAzMWE3ZTY1ZjA0NTY=|01813b015c82e099d2915f48b04a43dafda4b7c2a25892480422eeb78ba93fda\"; _xsrf=2|a2533cf9|503b65782542982445cf59ebd3bfc1e2|1535785350; username-localhost-8888=\"2|1:0|10:1536332357|23:username-localhost-8888|44:MmQxMzg4YjI5ZjBiNGM1NmE2NzM4NzdmZTA2ZWFjYWM=|e61c9fb9cb6852cfe9864eff31893237fd5eda33b2a05a48307d2fc9b8cb4a10\"; PHPSESSID=nadh71cfeqi04tg938nbe63732; _csrf=3fb5cf20b5e80e19d223b6d5c35053337699ea54804791f8dde10e0a537d15eea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224GUUdqJ5rqLsb3ExSk02NTRDgQVgX9mP%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.29 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.29 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/trial-rest-api/api/index.php'
+    'REMOTE_PORT' => '52606'
+    'REDIRECT_URL' => '/trial-rest-api/api/v1/default/index/1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/trial-rest-api/api/v1/default/index/1'
+    'SCRIPT_NAME' => '/trial-rest-api/api/index.php'
+    'PHP_SELF' => '/trial-rest-api/api/index.php'
+    'REQUEST_TIME_FLOAT' => 1536651604.069
+    'REQUEST_TIME' => 1536651604
+]
+2018-09-11 09:38:37 [::1][-][nadh71cfeqi04tg938nbe63732][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "".' in /var/www/html/trial-rest-api/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/www/html/trial-rest-api/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('', Array)
+#1 /var/www/html/trial-rest-api/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/html/trial-rest-api/api/index.php(14): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/html/trial-rest-api/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/html/trial-rest-api/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/html/trial-rest-api/api/index.php(14): yii\base\Application->run()
+#2 {main}
+2018-09-11 09:38:37 [::1][-][nadh71cfeqi04tg938nbe63732][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => 'f7369c2c4dbe3a99c74098cf047bd076eea39a39f307f50a44574122222f5867a:2:{i:0;s:9:\"_identity\";i:1;s:35:\"[\"supreeth@aotpl.com\",null,2592000]\";}'
+    'username-localhost-8889' => '\"2|1:0|10:1534876186|23:username-localhost-8889|44:YWZiZjcyM2Q0MzY2NDdlM2E4MjAzMWE3ZTY1ZjA0NTY=|01813b015c82e099d2915f48b04a43dafda4b7c2a25892480422eeb78ba93fda\"'
+    '_xsrf' => '2|a2533cf9|503b65782542982445cf59ebd3bfc1e2|1535785350'
+    'username-localhost-8888' => '\"2|1:0|10:1536332357|23:username-localhost-8888|44:MmQxMzg4YjI5ZjBiNGM1NmE2NzM4NzdmZTA2ZWFjYWM=|e61c9fb9cb6852cfe9864eff31893237fd5eda33b2a05a48307d2fc9b8cb4a10\"'
+    'PHPSESSID' => 'nadh71cfeqi04tg938nbe63732'
+    '_csrf' => '3fb5cf20b5e80e19d223b6d5c35053337699ea54804791f8dde10e0a537d15eea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4GUUdqJ5rqLsb3ExSk02NTRDgQVgX9mP\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en-US;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => '_identity=f7369c2c4dbe3a99c74098cf047bd076eea39a39f307f50a44574122222f5867a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A35%3A%22%5B%22supreeth%40aotpl.com%22%2Cnull%2C2592000%5D%22%3B%7D; username-localhost-8889=\"2|1:0|10:1534876186|23:username-localhost-8889|44:YWZiZjcyM2Q0MzY2NDdlM2E4MjAzMWE3ZTY1ZjA0NTY=|01813b015c82e099d2915f48b04a43dafda4b7c2a25892480422eeb78ba93fda\"; _xsrf=2|a2533cf9|503b65782542982445cf59ebd3bfc1e2|1535785350; username-localhost-8888=\"2|1:0|10:1536332357|23:username-localhost-8888|44:MmQxMzg4YjI5ZjBiNGM1NmE2NzM4NzdmZTA2ZWFjYWM=|e61c9fb9cb6852cfe9864eff31893237fd5eda33b2a05a48307d2fc9b8cb4a10\"; PHPSESSID=nadh71cfeqi04tg938nbe63732; _csrf=3fb5cf20b5e80e19d223b6d5c35053337699ea54804791f8dde10e0a537d15eea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224GUUdqJ5rqLsb3ExSk02NTRDgQVgX9mP%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.29 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.29 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/trial-rest-api/api/index.php'
+    'REMOTE_PORT' => '53046'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/trial-rest-api/api/'
+    'SCRIPT_NAME' => '/trial-rest-api/api/index.php'
+    'PHP_SELF' => '/trial-rest-api/api/index.php'
+    'REQUEST_TIME_FLOAT' => 1536658717.342
+    'REQUEST_TIME' => 1536658717
+]
