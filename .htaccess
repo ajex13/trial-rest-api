@@ -1,1 +1,11 @@
-IndexOptions FancyIndexing
+#Remove dir listing 
+
+Options -Indexes
+IndexIgnore */*
+
+# follow symbolic link
+Options FollowSymLinks
+RewriteEngine on 
+
+# Rerouting to index 
+RewriteRule ^(.+)?$ blog/web/$1 

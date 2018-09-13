@@ -61,6 +61,7 @@ class SiteController extends Controller
      */
     public function actionIndex()
     {
+        // echo str_replace('blog/web','',(new \yii\web\Request())->baseUrl);
         return $this->render('index');
     }
 
